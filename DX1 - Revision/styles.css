@@ -1,0 +1,163 @@
+/* Jonathan Hofler DX1 Project Revision 11/10/2015 */
+
+
+
+/* body {
+  background: url('background.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+} */
+
+body {
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-color: black; 
+}
+
+P {
+   font-family: verdana;
+   font-size: 9pt;
+   color: white;
+   text-align: center;
+
+}
+
+p.intro { color: black;}
+
+h3 {
+  color: red;
+}
+
+/* main boostrap navbar color affects*/
+.navbar{
+  background-color: black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom-color: #adb39b;
+}
+
+
+
+/* boostrap navbar container affects*/
+/* .container{ 
+  border-style: solid;
+  border-color: white;} */
+
+/* main boostrap navbar link affects*/
+.navbar .nav > li > a {
+  font:sans-serif;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-left: 0x;
+  margin-top: 5px;
+  background-color: black;
+  text-align: center;
+}
+
+/* Mouse hover affects*/
+
+ul.nav a:hover { color: red !important; }
+
+/* Inventory collapes dropdown font color */
+@media only screen and (max-width: 768px) {
+.collapsing ul li a, .in ul li a {color: white!important;}
+}
+
+
+/* Inventory dropdown background */
+.dropdown-menu {
+  background-color: red;
+  text-align: center;
+ 
+}
+
+
+/* Inventory dropdown menu background */
+.dropdown-menu > li > a {
+  color: white; 
+  font-size: 12pt;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: red;
+    text-align: center;
+}
+
+
+
+/* font style for all font on page*/
+
+body {font-family: sans-serif;}
+
+/* Positions the whole navbar*/
+
+.navbar-static-top .navbar-brand {
+    color: white;
+    margin-top: 4.8px;
+    background-color: black;
+    height: auto;
+
+    }
+
+/* Ducati Navbar image*/
+
+  .img-responsive {
+        max-width: 80%;
+        height: auto;
+    }
+
+/* Ducati image boostrap bar center*/
+
+@media (max-width: 768px) {
+    .navbar {
+    position: relative;  
+    padding-bottom: 25px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .brand {  
+    position: absolute;
+    left: 45%;
+    margin-left: -55px !important;  /* 50% of your logo width */
+    display: block;
+    }
+  }
+
+/* glyphicon inside of responsive footer*/
+
+/*footer .glyphicon {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #f4511e;
+    }*/
+/* This is a boostrap responsive footer*/
+
+footer{
+ margin-top: 20px;
+ margin-bottom: 0px;
+ padding-top: 1%;
+
+ }
+/* Picture positioning in footer*/
+ .container-fluid{
+ border-top: #adb39b;
+ border-top-style: solid;
+ border-top-width: 1.5px;
+
+ }
+
+.category1 {
+position:relative;
+display: inline-block;
+/*float:right;*/
+padding:10px;
+}
+
+.category3 { padding-top:10px;} 
+

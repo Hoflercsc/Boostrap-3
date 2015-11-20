@@ -1,0 +1,220 @@
+
+body {
+  background: url('background.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+
+
+P {
+   font-family: verdana;
+   font-size: 9pt;
+   color: white;
+   text-align: center;
+
+}
+
+.logo img {
+    margin-left: 12px;
+    margin-top: 15px;
+
+}
+
+#logo2  {
+    color: white;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+#privacy
+  {
+    color: white;
+    font-family: arial;
+    font-size: 8pt;
+    bottom: 7px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {float:left; margin-left: 19px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    #logo {float:left; margin-left: 19px;
+    }
+  }
+
+  
+
+
+#leftsidebar {float: none;width: auto;}
+#menulist {margin:0;padding:0;}
+
+.menuitem {
+    background:black;
+    border:1px solid black;
+    border-radius:1px;
+    list-style-type:none;
+    margin:0px;
+    padding:23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+    font-size: 10.5pt;
+    width: 272px;
+    height: 71px;
+
+}
+
+ li:hover, li:active {
+    background-color: #808080;
+}
+
+@media screen and (max-width: 1600px) {
+    #leftsidebar {width:200px;float:left;}
+   
+}
+
+@media screen and (max-width: 1366px) {
+    #leftsidebar {width:200px;float:left;}
+   
+}
+
+@media screen and (max-width: 480px) {
+    #leftsidebar {display: none;}
+}
+
+
+  .footer {
+   font-size: 8pt;
+   position:absolute;
+   left:0px;
+   bottom:0px;
+   height:38px;
+   width:100%;
+   background:black;
+   clear: both;
+   color: white;
+   text-align: center;
+
+   }
+
+  .footer img {
+  position: absolute;
+  left: 0;  
+  bottom: 15px;
+    
+}
+
+
+.clear{
+  clear: both;
+}
+ 
+  div.tw img { 
+  position: absolute; 
+  right: 0;  
+  bottom: 0; }
+
+  div.fb img { 
+  position: absolute; 
+  right: 50px; 
+  bottom: 0; }
+
+  div.yt img { 
+  position: absolute; 
+  right: 100px; 
+  bottom: 0; }
+
+@media screen and (max-width: 480px) {
+.footer { height:60px; float: right; }
+}
+
+@media screen and (max-width: 480px) {
+.yt {display: none;}
+}
+
+@media screen and (max-width: 480px) {
+.fb {display: none;}
+}
+ 
+ @media screen and (max-width: 480px) {
+.tw {display: none;}
+}
+
+
+#rightsidebar {float: right;width: auto;}
+#menulist2 {margin:0;padding:0; }
+
+.item {
+    background:red;
+    border:1px solid red;
+    border-radius:1px;
+    list-style-type:none;
+    padding:20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    font-size: 15pt;
+    font-family: arial;
+    width: 195px; 
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    #rightsidebar {float:left; margin-left: 50px;
+    }
+  }
+
+
+
+.dropdown-menu {
+    
+    background: black;
+    color: white;
+    border-color: white;
+    font-color: white;
+    left: 17% !important;
+    
+}
+
+.btn {
+    
+    background: black;
+    color: white;
+    font-size: 15pt;
+    border-color: white;
+    left: 14% !important;
+    margin-left: -3px;
+    margin-top: 20px;
+    padding: 15px;
+    position: relative;
+    width: 200px;
+    
+}
+
+.btn-default {
+  color: white;
+  border-color: white;
+  font-color: white;
+
+}
+
+.dropdown-menu > li > a {
+    color: white;
+}
+
+ @media screen and (min-width: 480px) {
+.btn {
+display: none;
+
+}
+}

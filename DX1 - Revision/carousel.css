@@ -1,0 +1,20 @@
+ /* Carousel base class */
+
+
+
+.carousel {
+ 
+  margin-bottom: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 75%;
+      margin: auto;
+  }
+
+

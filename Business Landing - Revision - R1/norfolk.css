@@ -1,0 +1,183 @@
+
+body {
+  background: url('topview.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+
+
+#p1 {
+   font-family: arial;
+   font-weight: bold;
+   font-size: 14pt;
+   color: black;
+   text-align: center;
+   margin-top: 20px;
+   margin-right: 35px;
+   margin-left: 30px;
+   height: auto;
+   width: auto;
+ }
+
+
+
+
+
+.navbar-inverse { background-color: #222222}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #080808}
+.dropdown-menu { background-color: #ffffff}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428bca}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #080808}
+.navbar-inverse .navbar-brand { color: #999999}
+.navbar-inverse .navbar-brand:hover { color: #ffffff}
+.navbar-inverse .navbar-nav>li>a { color: #999999}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #ffffff}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #ffffff}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #ffffff}
+.dropdown-menu>li>a { color: #333333}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #ffffff}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #ffffff}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #ffffff}
+
+
+.jumbotron {
+    text-align: left;
+    color: black;
+    margin-top: 7%;
+    margin-left: 22%;
+    margin-right: 22%;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 30px;
+    height: auto;
+    
+}
+
+/* Norfolk Heading 1 in Jumbotron*/
+.norfolk {
+    margin-top: 1px;
+    text-align: center;
+}
+
+
+.navbar-nav {
+  font-size: 17px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+/* The Business Landing Logo Section*/
+.navbar-brand {
+  margin-top: 4.8px;
+}
+
+.navbar-form{
+
+  margin-left: 0px;
+  padding-top: 3px;
+}
+
+/* Demographics form list sizing*/
+
+.container1{
+  width: 60%;
+  margin-left: 20%;
+}
+
+/* Border around input form fields*/
+
+.form-control{
+  border:1px solid black;
+}
+
+/* bootstrap dropdown bar submenu for Hampton Roads*/
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: auto;
+    height: auto;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+/* END bootstrap dropdown submenu for Hampton Roads*/
+
+
+
+
+
+/* END */
+
+
+footer {
+  
+  position:absolute;
+  bottom: 0%;
+  width:100%;
+  height: auto;
+  background: black;
+  text-align: center;
+  color: white;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+
+address { 
+
+  display: inline;
+
+}
+
+
+
+
+

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Norfolk</title>
+
+        <!-- Latest compiled and minified CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+   <!-- <link rel="stylesheet" type="text/css" href="de-project.css"> -->
+   <link rel="stylesheet" type="text/css" href="norfolk.css"> 
+
+  </head>
+
+  <body>
+
+<header class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html" class="navbar-brand">Business Landing</a> 
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+              <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Business <b class="caret"></b></a>
+          <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+              <li><a href="gt.html">Getting Started</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">Hampton Roads</a>
+                <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Chesapeake</a></li>
+                  <li><a tabindex="-1" href="#">Hampton</a></li>
+                  <li><a tabindex="-1" href="#">Newport News</a></li>
+                  <li><a tabindex="-1" href="norfolk.html">Norfolk</a></li>
+                  <li><a tabindex="-1" href="#">Portsmouth</a></li>
+                  <li><a tabindex="-1" href="#">Suffolk</a></li>
+                  <li><a tabindex="-1" href="#">Virginia Beach</a></li>
+                 <!-- <li class="dropdown-submenu">
+                    <a href="#">Even More..</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">3rd level</a></li>
+                      <li><a href="#">3rd level</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Second level</a></li>
+                  <li><a href="#">Second level</a></li> -->
+                </ul> 
+                  </ul>
+              </li> 
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="feedback.html">Feedback</a>
+        </li>
+      </ul>
+       <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </nav>
+  </div>
+</header>
+
+<div class="jumbotron">
+  
+  <h1 class="norfolk">Norfolk</h1>  
+  <p id="p1"> Select your demographics below : </p> 
+
+
+  <div class="container1">
+  <div class="row">
+    <section class="col-xs-12">
+
+<div class="form-group">
+  <label for="Race">Race</label>
+  <select class="form-control" id="Race">
+    <option>Choose Race...</option>
+    <option>African American</option>
+    <option>Asian</option>
+    <option>Cacausian</option>
+    <option>Hispanic</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="Language">Language</label>
+  <select class="form-control" id="Language">
+    <option>Choose Language...</option>
+    <option>English</option>
+    <option>Spanish</option>
+    <option>French</option>
+     <option>Tagolog</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="BusinessType">BusinessType</label>
+  <select class="form-control" id="BusinessType">
+    <option>Choose Business Type...</option>
+    <option>Accommodation</option>
+    <option>Manufacturing</option>
+    <option>Health Care</option>
+    <option>Professional Service</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="Gender">Gender</label>
+  <select class="form-control" id="Gender">
+    <option>Choose Gender...</option>
+    <option>Male</option>
+    <option>Female</option>
+  </select>
+</div>
+
+<label for="Age">Age</label>
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Starting Age" id="Age1"/>
+    <span class="input-group-addon">-</span>
+    <input type="text" class="form-control" placeholder="Ending Age" id="Age2"/>
+</div>
+</div>
+
+</br>
+<label for="Population">Population</label>
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Startin Population" id="Population1"/>
+    <span class="input-group-addon">-</span>
+    <input type="text" class="form-control" placeholder="Ending Population" id="Population2"/>
+</div>
+
+
+</br>
+<div class= "form-group">
+<label for="Household Income">Household Income</label>
+<input class="form-control" id="Household Income" 
+name="Household Income" placeholder="Household Income" 
+type="income" required />
+</div>
+
+
+<input type="submit" class="btn btn-default"  
+  value="submit">
+</form>
+
+    </section>
+  </div><!-- row -->   
+</div><!-- content container -->
+  
+  <!-- <form id="p2" >
+<hr/>
+<p class="pheading">Race </p>
+  <select name="race">
+    <option value="0" selected="true">Select One</option>
+    <option value="Black">African American</option>
+    <option value="Asian">Asian</option>
+    <option value="White">Cacausian</option>
+    <option value="Hispanic">Hispanic</option>
+  </select>
+ 
+ <br>
+  
+  <p class="pheading">Language </p>
+ <select name="Language">
+    <option value="English">English</option>
+    <option value="Spanish">Spanish</option>
+    <option value="French">French</option>
+    <option value="Tagolog">Tagolog</option>
+  </select>
+
+<br>
+
+<p class="pheading">Business Type</p>
+ <select name="Language">
+    <option value="accommodation">Accommodation</option>
+    <option value="foodservices">Food Service</option>
+    <option value="manufacturing">Manufacturing</option>
+    <option value="healthcare">Health Care</option>
+    <option value="healthcare">Professional Service </option>
+
+  </select>
+
+<br>
+
+<p class="pheading">Gender </p>
+<input type="radio" name="sex" value="male" checked> Male
+<br>
+<input type="radio" name="sex" value="female"> Female
+<br>
+
+  <p class="pheading">Age </p>
+   Min:
+  <input type="text" name="mina" size="3" maxlength="3">
+  <br>
+  <br>
+  Max:
+  <input type="text" name="maxa" size="3" maxlength="3">
+
+
+<br>
+ <p class="pheading">Population</p>
+   Min:
+  <input type="text" name="mini" size="10" maxlength="15">
+  <br>
+  <br>
+  Max:
+  <input type="text" name="maxi" size="10" maxlength="15">
+
+ <br>
+ <p class="pheading">Language </p>
+ <select name="Language"> Language
+    <option value="English">English</option>
+    <option value="Spanish">Spanish</option>
+    <option value="French">French</option>
+    <option value="Tagolog">Tagolog</option>
+  </select>
+
+<br>
+  
+<p class="pheading">Household Income </p>
+   Min:
+  <input type="text" name="mini">
+  <br>
+  <br>
+  Max:
+  <input type="text" name="maxi">
+  
+<br><br>
+
+
+  <input type="submit">
+</form>
+</form> -->
+
+
+
+</div> 
+
+
+ 
+  
+
+ 
+  
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
+  </body>
+</html>

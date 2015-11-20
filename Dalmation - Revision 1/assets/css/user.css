@@ -1,0 +1,27 @@
+span.glyphicon.glyphicon-option-horizontal{
+  font-size:50px;
+}
+
+p{
+  margin-top:15px;
+}
+
+h1.text-center{
+  margin-top:35px;
+}
+
+img.img-responsive{
+  margin:auto;
+}
+
+footer{
+  text-align:center;
+  color:#999;
+  border-top:1px solid #ccc;
+  padding:2em 0em;
+  margin:3em 0;
+}
+
+div.container{
+}
+
